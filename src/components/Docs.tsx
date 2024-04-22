@@ -26,7 +26,7 @@ const tiers = [
     ]
   },
   {
-    title: 'Diferencias',
+    title: 'Diferenciais',
     description: [
       'Leve, simples acesso e mutável. Basta abrir o seu navegador e já está pronto pra uso. Funcionalidades podem ser adicionadas com a preferência do usuário.'
     ]
