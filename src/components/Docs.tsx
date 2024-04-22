@@ -54,10 +54,10 @@ export default function Pricing() {
         }}
       >
         <Typography style={{fontFamily:'gow-font'}} component="h2" variant="h4" color="#fff">
-        What is GoW DB?
+        
         </Typography>
         <Typography variant="body1" color="#fff" style={{fontFamily:'gow-font'}}>
-        See some of the documentation
+        
         </Typography>
       </Box>
       <Grid container spacing={3} alignItems="center" justifyContent="center">
