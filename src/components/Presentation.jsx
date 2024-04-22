@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 
 const Presentation = () => {
     const introText = "Olá, Sou o Fidelius";
-  
     return (
       <>
         <motion.h3

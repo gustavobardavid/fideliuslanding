@@ -12,6 +12,9 @@ export default function Home() {
           foto = './assets/eu2.jpg'/>
           </div>
       <br />
+      <aside>
+         <FotoProfile />
+      </aside>
       <Habilidades/>
       <div className="proposta">
             <h2>Se interessou?</h2>
