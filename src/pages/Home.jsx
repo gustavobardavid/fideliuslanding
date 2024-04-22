@@ -22,6 +22,7 @@ export default function Home() {
       </aside>
       <Habilidades/>
         <Hero1 />
+        <Hero2 />
       <Techstack />
       <div className="proposta">
             <h2>Solicite sua instalação</h2>

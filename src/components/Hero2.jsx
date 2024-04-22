@@ -13,7 +13,11 @@ export default function Hero() {
   return (
     <>
     <div className='content'>
-        <div className='harmony'></div>
+        <div className='harmony-video'>
+            <video autoPlay muted loop id="video-background">
+            <source src="../public/assets/video.mp4" type="video/mp4" />
+        </video>
+        </div>
         <div className='hero'>
             <Box
         id="hero"
@@ -51,10 +55,10 @@ export default function Hero() {
                   fontFamily: 'Poppins'
                 }}
               >
-              Visualize seus pacientes
+              Visualize seus pacientes, receite medicamentos e peça exames.  
               </Typography>
-            <Typography variant="body2" textAlign="center" color='var(--secondary)' style={{ fontFamily: 'Poppins' }}>
-              Adicione, acompanhe e exclua pacientes
+            <Typography variant="body2" textAlign="center" color='var(--secondary)' style={{ fontFamily: 'Poppins' }}>  
+            Adicione, acompanhe e exclua exames e medicamentos. 
             </Typography>
             <Stack
               direction={{ xs: 'column', sm: 'row' }}
