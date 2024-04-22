@@ -6,6 +6,8 @@ import '../vendor/fontawesome-free/css/all.min.css'
 import Techstack from '../components/Techstack';
 import Cabecalho from '../components/Cabecalho';
 import Footer from '../components/Footer';
+import Hero1 from '../components/Hero1';
+import Hero2 from '../components/Hero2';
 
 export default function Home() {
   return (
@@ -19,6 +21,7 @@ export default function Home() {
          <FotoProfile />
       </aside>
       <Habilidades/>
+        <Hero1 />
       <Techstack />
       <div className="proposta">
             <h2>Solicite sua instalação</h2>
