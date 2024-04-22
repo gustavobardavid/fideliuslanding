@@ -142,7 +142,7 @@ aside a {
 }
 
 footer {
-  color: white;
+  color: var(--secondary);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -328,9 +328,6 @@ menu li {
 .projetos {
   margin-bottom: 100px;
 }
-.tech-stack-container {
-  width: 100%;
-}
 }
 
 .logos {
@@ -464,7 +461,7 @@ menu li {
 }
 
 .tech-icons {
-  font-size: 3.5em !important;
+  font-size: 1.5em !important;
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
@@ -479,11 +476,6 @@ menu li {
   background-color: var(--secondary);
 }
 
-@media (max-width: 767px) {
-  .tech-icons {
-    margin: 10px !important;
-  }
-}
 
 .tech-icons:hover {
   transform: scale(1.05) !important;
@@ -493,7 +485,17 @@ menu li {
 
 .tech-stack-container {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(3,1fr);
   flex-wrap: wrap;
   justify-content: center;
 }
+@media (max-width: 767px) {
+  .tech-icons {
+
+  }
+  .tech-stack-container {
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
