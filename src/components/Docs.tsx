@@ -47,19 +47,7 @@ export default function Pricing() {
         gap: { xs: 3, sm: 6 },
       }}
     >
-      <Box
-        sx={{
-          width: { sm: '100%', md: '60%' },
-          textAlign: { sm: 'left', md: 'center' },
-        }}
-      >
-        <Typography style={{fontFamily:'gow-font'}} component="h2" variant="h4" color="#fff">
-        
-        </Typography>
-        <Typography variant="body1" color="#fff" style={{fontFamily:'gow-font'}}>
-        
-        </Typography>
-      </Box>
+    
       <Grid container spacing={3} alignItems="center" justifyContent="center">
         {tiers.map((tier) => (
           <Grid
