@@ -14,9 +14,6 @@ export default function Hero() {
     <>
     <div className='content'>
         <div className='harmony-video'>
-            <video autoPlay muted loop id="video-background">
-            <source src="../public/assets/video.mp4" type="video/mp4" />
-        </video>
         </div>
         <div className='hero'>
             <Box
